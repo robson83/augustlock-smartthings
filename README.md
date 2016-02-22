@@ -15,16 +15,14 @@ augustlock-api
 Then, follow the steps below.
 
 1. SmartThings side
-..1. Log onto your [SmartThings](https://graph.api.smartthings.com/)
-..2. Click on My Devices Handlers, and then Create New Device Handler on top right
-..3. Copy the code you just cloned from the repo called "AugustLock.groovy"
-..4. Click Save, and then Publish - for me
-..5. Go to the top menu, click on My Devices and then New Device on top right
-..6. Fill in name, Device Network ID (some random numbers and letters (A-F)), Type select AugustController (should be by the end of the options) and then click create
-..7. After creating, click EDIT below preferences, and type your server IP and port - this is important to make everything work
+1.1. Log onto your [SmartThings](https://graph.api.smartthings.com/)
+1.2. Click on My Devices Handlers, and then Create New Device Handler on top right
+1.3. Copy the code you just cloned from the repo called "AugustLock.groovy"
+1.4. Click Save, and then Publish - for me
+1.5. Go to the top menu, click on My Devices and then New Device on top right
+1.6. Fill in name, Device Network ID (some random numbers and letters (A-F)), Type select AugustController (should be by the end of the options) and then click create
+1.7. After creating, click EDIT below preferences, and type your server IP and port - this is important to make everything work
 
 2. RaspberryPI side
-..1. Work in progress
+2.1. Work in progress
 
-2. RaspberryPI side
-3. 
