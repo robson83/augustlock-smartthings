@@ -25,3 +25,8 @@ Then, follow the steps below.
 
 2. RaspberryPI side
    1. Work in progress
+
+![Unlocked](https://github.com/robson83/augustlock-smartthings/blob/7f755fd099ac530076051c4b265f7e4d99b5d6be/thumb_IMG_8507_1024.jpg "Unlocked")
+![Unlocked full](https://github.com/robson83/augustlock-smartthings/blob/7f755fd099ac530076051c4b265f7e4d99b5d6be/thumb_IMG_8508_1024.jpg "Unlocked full")
+![Waiting full](https://github.com/robson83/augustlock-smartthings/blob/7f755fd099ac530076051c4b265f7e4d99b5d6be/thumb_IMG_8509_1024.jpg "Waiting full")
+![Locked full](https://github.com/robson83/augustlock-smartthings/blob/7f755fd099ac530076051c4b265f7e4d99b5d6be/thumb_IMG_8510_1024.jpg "Locked full")
