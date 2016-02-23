@@ -23,7 +23,12 @@ Then, follow the steps below.
    6. Fill in name, Device Network ID (some random numbers and letters (A-F)), Type select AugustController (should be by the end of the options) and then click create
    7. After creating, click EDIT below preferences, and type your server IP and port - this is important to make everything work
 
+Note:I'm assuming you know about how to install and operate the basics of a RaspberryPi. Also note a Bluetooth device is needed, and the one I used is based on [CSR 8510 Chipset](http://www.amazon.com/gp/product/B00IMALQ94). 
+
+If you have a Mac (macbook, iMac) you can also use it to test the project. Just skip directly to the node installation.
+
 2. RaspberryPI side
+
    1. Install Raspbian, or any other image you might be familiar with
    2. Install Node. I suggest following the nvm package, which allows you to switch between node versions easily - Follow (NVM)[https://github.com/creationix/nvm] here. After getting, I suggest you to have v0.10.29 - this can be done issuing nvm install v0.10.29 and then nvm use v0.10.29
    3. Go to the augustlock-api project and create a file called "config.json". That file should contain your keys that will be used to communicate with your AugustLock. The steps necessary to grab it are described here [AugustLock OfflineKeys](https://github.com/mtvg/August) . I used the iPhone method, taking a backup and extracting the file.
