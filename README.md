@@ -9,8 +9,8 @@ This project is based on [AugustCtl](https://github.com/sretlawd/augustctl) libr
 ### Installation procedures
 
 Clone two different projects:
-* (augustlock-smartthings)[https://github.com/robson83/augustlock-smartthings]
-* (augustlock-api)[https://github.com/robson83/augustctl]
+* [augustlock-smartthings](https://github.com/robson83/augustlock-smartthings)
+* [augustlock-api](https://github.com/robson83/augustctl)
 
 Then, follow the steps below.
 
@@ -26,7 +26,7 @@ Then, follow the steps below.
 2. RaspberryPI side
    1. Install Raspbian, or any other image you might be familiar with
    2. Install Node. I suggest following the nvm package, which allows you to switch between node versions easily - Follow (NVM)[https://github.com/creationix/nvm] here. After getting, I suggest you to have v0.10.29 - this can be done issuing nvm install v0.10.29 and then nvm use v0.10.29
-   3. Go to the augustlock-api project and create a file called "config.json". That file should contain your keys that will be used to communicate with your AugustLock. The steps necessary to grab it are described here (AugustLock OfflineKeys)[https://github.com/mtvg/August] . I used the iPhone method, taking a backup and extracting the file.
+   3. Go to the augustlock-api project and create a file called "config.json". That file should contain your keys that will be used to communicate with your AugustLock. The steps necessary to grab it are described here [AugustLock OfflineKeys](https://github.com/mtvg/August) . I used the iPhone method, taking a backup and extracting the file.
    4. To have your server listening correctly, you should modify your config.json, adding an 'address' key to the json file. Example: {"address": "192.168.0.9", "offlineKey": "01234567890abcdef", "offlineKeyOffset": 1 } . Suggest you to have your local LAN address with 3 digit ip address - for any reason, as reported on SmartThings forum, ips starting with 10 (2 digits), doesn't communicate well (maybe a bug on ST?)
    5. Start you server using node server.js
    6. Open your browser at http://youripaddress:3000/api/status and if everything is configured accordingly, you should be able to see a json response with the result
